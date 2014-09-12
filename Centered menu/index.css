@@ -1,0 +1,13 @@
+/* Add this code to your index.css od your variant */
+#top_section {
+	position: relative;
+	text-align: center;
+}
+#top_section #main_menu {
+	float: none;
+	display:inline-block;
+	width: auto;
+}
+#menu_nav {
+	padding-bottom: 0;
+}
