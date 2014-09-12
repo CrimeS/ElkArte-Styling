@@ -11,9 +11,16 @@
 #menu_nav {
 	padding-bottom: 0;
 }
-/* Add text-align: left; to this class */
+/* Add text-align: left; to this class if using Light! variant */
 .linklevel2:link, .linklevel2:visited, .linklevel3:link, .linklevel3:visited {
 	border: 1px solid transparent;
 	color: #666;
 	text-align: left;
-} 
+/* Add text-align: left; to this class if using Be Social! variant */
+.linklevel2, .linklevel3 {
+	position: relative;
+	display: block;
+	padding: 0 7px;
+	text-align: left;
+}
+/* Credits go to emanuele and allan, who were the first ones to come up with the above code, CrimeS for Be Social! variant */ 
